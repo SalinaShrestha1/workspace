@@ -1,0 +1,43 @@
+// header styles 
+header{
+    height: 100vh;
+}
+
+// flex the items in the wrapper
+header .wrapper{
+    @include flex;
+    // ensure it doesnt wrap
+    flex-wrap: nowrap;
+}
+
+// written content section
+header .writtenContent{
+    width: 70%;
+    padding: 250px 0 50px;
+}
+
+// paragraph styles
+header p{
+    font-size: 2.2rem;
+}
+
+// start button styles
+header button{
+    margin-top: 30px;
+    @include buttonStyles(2rem, 150px);
+}
+
+// change styles on hover
+header button:hover,
+header button:focus{
+    @include buttonHover;
+}
+
+//  image container styles
+header .imageContainer{
+    width: 280px;
+    padding-top: 60px;
+}
+
+
+

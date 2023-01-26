@@ -1,0 +1,122 @@
+// remove default spacing
+*,
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+// default img styling
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+// wrapper styles
+.wrapper{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+// default font styles
+html{
+    font-size: 62.5%;
+}
+
+// default body styles
+body{
+    font-family: $bodyFont;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+// default heading and label styles 
+h1,
+h2,
+label,
+button,
+.swal-title,
+.swal-button{
+    font-family: $headingFont;
+}
+
+// change lineheight of the headings
+h1,
+h2{
+    line-height: 1;
+}
+
+// add background highlight
+// found this trick on: https://thirtyeightvisuals.com/blog/low-highlight-heading-links-squarespace
+.highlight{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, $mainColour 40%);
+}
+
+// heading styles
+h1{
+    font-size: 6rem;
+    font-weight: 300;
+    padding-bottom: 20px;  
+}
+
+
+// h2 styles
+h2{
+    font-weight: 400;
+    font-size: 2.8rem;
+    position: relative;
+    margin: 10px 0;
+}
+
+// make the main take up the entire hieght
+main{
+    height: 100vh;
+    padding-top: 120px;
+}
+
+// the main section styles
+.flexContainer{
+    @include flex;
+}
+
+// default image styles
+.canvas .imageContainer{
+    display: none;
+}
+
+// the class to show things in JS
+.canvas .imageContainer.show{
+    display: block;
+}
+
+// alert styles
+.swal-title,
+.swal-button{
+    font-weight: 300;
+}
+
+// change size of title
+.swal-title{
+    font-size: 2.4rem;
+}
+
+// the button styles
+.swal-button{
+    @include buttonStyles(1.6rem, 120px);
+    border-radius: 0;
+}
+
+// change the colour of the buttons
+.swal-button:not([disabled]):hover,
+.swal-button:not([disabled]):focus{
+    @include buttonHover;
+}
+
+// center the button | change spacing around it
+.swal-footer{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}

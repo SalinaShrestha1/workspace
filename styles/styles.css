@@ -1,0 +1,766 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+*,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+h1,
+h2,
+label,
+button,
+.swal-title,
+.swal-button {
+  font-family: "scotch-display", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h1,
+h2 {
+  line-height: 1;
+}
+
+.highlight {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(255, 255, 255, 0)), color-stop(20%, #dccfba));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #dccfba 20%);
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2.8rem;
+  position: relative;
+  margin: 10px 0;
+}
+
+main {
+  height: 100vh;
+  padding-top: 120px;
+}
+
+.flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.canvas .imageContainer {
+  display: none;
+}
+
+.canvas .imageContainer.show {
+  display: block;
+}
+
+.swal-title,
+.swal-button {
+  font-weight: 300;
+}
+
+.swal-title {
+  font-size: 2.4rem;
+}
+
+.swal-button {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  padding: 8px 0;
+  font-size: 1.6rem;
+  width: 120px;
+  border-radius: 0;
+}
+
+.swal-button:not([disabled]):hover,
+.swal-button:not([disabled]):focus {
+  background-color: #f3e8e1;
+  cursor: pointer;
+}
+
+.swal-footer {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+header {
+  height: 100vh;
+}
+
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+header .writtenContent {
+  width: 70%;
+  padding: 250px 0 10px;
+}
+
+header p {
+  font-size: 2.2rem;
+}
+
+header button {
+  margin-top: 30px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  padding: 8px 0;
+  font-size: 2rem;
+  width: 150px;
+}
+
+header button:hover,
+header button:focus {
+  background-color: #dccfba;
+  cursor: pointer;
+}
+
+header .imageContainer {
+  width: 880px;
+  padding-top: 180px;
+}
+
+.options {
+  width: 40%;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+label {
+  font-size: 2rem;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+  margin: 10px 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+input[type="radio"]:hover + label,
+input[type="radio"]:focus + label,
+input[type="checkbox"]:hover + label,
+input[type="checkbox"]:focus + label {
+  background-color: #dccfba;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+  background-color: #dccfba;
+  cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.canvas {
+  margin-top: 40px;
+  width: 650px;
+  height: 400px;
+  background-image: url(../assets/background-02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.canvas .couch {
+  width: 40%;
+  left: 220px;
+  bottom: 65px;
+  position: absolute;
+}
+
+.canvas .desk {
+  width: 40%;
+  left: 220px;
+  bottom: 70px;
+  position: absolute;
+  z-index: 30;
+}
+
+.canvas .beanBag {
+  width: 40%;
+  left: 220px;
+  bottom: 65px;
+  position: absolute;
+}
+
+.canvas .coffeeTable {
+  width: 14%;
+  left: 230px;
+  bottom: 55px;
+  position: absolute;
+  z-index: 10;
+}
+
+.canvas .cat {
+  width: 10%;
+  left: 100px;
+  bottom: 215px;
+  position: absolute;
+}
+
+.canvas .dog {
+  width: 23%;
+  left: 25px;
+  bottom: 30px;
+  position: absolute;
+}
+
+.canvas .plant {
+  width: 20%;
+  left: 470px;
+  bottom: 40px;
+  position: absolute;
+}
+
+.canvas .diffuser {
+  width: 17%;
+  left: 300px;
+  bottom: 178px;
+  position: absolute;
+}
+
+.canvas .music {
+  width: 10%;
+  left: 230px;
+  bottom: 175px;
+  position: absolute;
+}
+
+.canvas .snack {
+  width: 20%;
+  left: 185px;
+  bottom: 230px;
+  position: absolute;
+}
+
+.canvas .tea {
+  width: 4%;
+  left: 390px;
+  bottom: 180px;
+  position: absolute;
+}
+
+.canvas .coffee {
+  width: 4%;
+  left: 390px;
+  bottom: 182px;
+  position: absolute;
+  z-index: 20;
+}
+
+.canvas .notebook {
+  width: 8%;
+  left: 420px;
+  bottom: 177px;
+  position: absolute;
+  z-index: 20;
+}
+
+.canvas .imageContainer.notebook.onDesk {
+  width: 5%;
+  left: 280px;
+  bottom: 164px;
+  position: absolute;
+}
+
+.canvas .laptop {
+  width: 16%;
+  left: 300px;
+  bottom: 40px;
+  position: absolute;
+  z-index: 40;
+}
+
+.canvas .imageContainer.laptop.onDesk {
+  width: 7%;
+  left: 355px;
+  bottom: 164px;
+  position: absolute;
+}
+
+.canvas .lamp {
+  width: 14%;
+  left: 160px;
+  bottom: 40px;
+  position: absolute;
+  z-index: 10;
+}
+
+@media (max-width: 1200px) {
+  header .writtenContent {
+    padding: 200px 0 100px;
+  }
+  .flexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main {
+    height: auto;
+    padding: 70px 0 50px;
+  }
+  .options {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  header {
+    height: auto;
+  }
+  main {
+    padding-top: 60px;
+  }
+  header .writtenContent {
+    padding: 200px 0 150px;
+  }
+  header .imageContainer {
+    padding-top: 150px;
+    width: 200px;
+  }
+  .options {
+    width: 80%;
+  }
+}
+
+@media (max-height: 800px) {
+  header {
+    height: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  header .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .writtenContent {
+    padding: 180px 0;
+    width: 90%;
+  }
+  header .imageContainer {
+    display: none;
+  }
+  main {
+    padding-top: 20px;
+  }
+  .canvas {
+    width: 500px;
+    height: 300px;
+  }
+  .canvas .couch {
+    width: 38%;
+    left: 190px;
+    bottom: 45px;
+    position: absolute;
+  }
+  .canvas .desk {
+    width: 28%;
+    left: 210px;
+    bottom: 38px;
+    position: absolute;
+    z-index: 30;
+  }
+  .canvas .beanBag {
+    width: 22%;
+    left: 225px;
+    bottom: 45px;
+    position: absolute;
+  }
+  .canvas .coffeeTable {
+    width: 35%;
+    left: 198px;
+    bottom: 30px;
+    position: absolute;
+    z-index: 10;
+  }
+  .canvas .cat {
+    width: 15%;
+    left: 22px;
+    bottom: 45px;
+    position: absolute;
+  }
+  .canvas .dog {
+    width: 18%;
+    left: 12px;
+    bottom: 35px;
+    position: absolute;
+  }
+  .canvas .plant {
+    width: 12%;
+    left: 390px;
+    bottom: 45px;
+    position: absolute;
+  }
+  .canvas .diffuser {
+    width: 2.5%;
+    left: 268px;
+    bottom: 198px;
+    position: absolute;
+  }
+  .canvas .music {
+    width: 2.5%;
+    left: 222px;
+    bottom: 237px;
+    position: absolute;
+  }
+  .canvas .snack {
+    width: 5%;
+    left: 122px;
+    bottom: 92px;
+    position: absolute;
+  }
+  .canvas .tea,
+  .canvas .coffee {
+    width: 2%;
+    left: 150px;
+    bottom: 92px;
+    position: absolute;
+  }
+  .canvas .notebook {
+    width: 5%;
+    left: 225px;
+    bottom: 75px;
+    position: absolute;
+    z-index: 20;
+  }
+  .canvas .imageContainer.notebook.onDesk {
+    width: 5%;
+    left: 225px;
+    bottom: 118px;
+    position: absolute;
+  }
+  .canvas .laptop {
+    width: 7%;
+    left: 285px;
+    bottom: 76px;
+    position: absolute;
+  }
+  .canvas .imageContainer.laptop.onDesk {
+    width: 7%;
+    left: 280px;
+    bottom: 119px;
+    position: absolute;
+  }
+  .canvas .lamp {
+    width: 30%;
+    left: 330px;
+    bottom: 42px;
+    position: absolute;
+    z-index: 20;
+  }
+}
+
+@media (max-width: 500px) {
+  main .wrapper {
+    width: 100%;
+  }
+}

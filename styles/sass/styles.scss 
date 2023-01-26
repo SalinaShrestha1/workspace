@@ -1,0 +1,7 @@
+@import 'setup';
+@import 'mixinsVariables';
+@import 'general';
+@import 'header';
+@import 'options';
+@import 'canvas';
+@import 'mediaQueries';
